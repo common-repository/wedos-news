@@ -1,0 +1,27 @@
+/** WEDOS News plugin
+ *  ----------------------------------------------------------------------------
+ *  Version: 0.1
+ */
+#wedos-widget{display: none;}
+#wedosnews h3{background: #E5E5E5;border-radius: 0px !important;}
+#wedosnews h3 span{font-weight: bold;font-family: 'Open sans', Ubuntu, Arial, Verdana, geneva, sans-serif;text-shadow: 1px 1px 0px #FFFFFF;filter: dropshadow(color=#FFFFFF, offx=1, offy=1);}
+#wedosnews .hndle, #wedosnews.postbox{border-radius: 0px !important;}
+img.wedos-icon{width: 65px;height: 18px;border: none;float: right;}
+#wedos-traffic small{line-height: 20px;padding-top: 10px;display: block;}
+a.wedos-button,a.wedos-button:visited,a.wedos-button:active,a.wedos-button:link,a.wedos-button.inactive{background: #1E90FF;display: inline-block;padding: 1px 4px 1px 4px;color: white;text-decoration: none;font-size: 0.9em;border: 1px solid #1E90FF;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;cursor: pointer;}
+a.wedos-button:hover{color: #1E90FF;border: 1px solid #E5E5E5;background: #E5E5E5;cursor: pointer;}
+a.wedos-button.active{background: #D0D2D5;display: inline-block;padding: 2px 5px 2px 5px;color: #1E90FF;text-decoration: none;font-size: 0.9em;border: 1px solid #D0D2D5;cursor: pointer;}
+a.wedos-button.right{float: right;margin-left: 3px;}
+.wedos-error{color: #FF0000;}
+ul.wedos-list li.wedos-item{border-bottom: 1px solid #E5E5E5;}
+ul.wedos-list li.wedos-item a,ul.wedos-list li.wedos-item a:active,ul.wedos-list li.wedos-item a:visited,ul.wedos-list li.wedos-item a:link{font-size: 0.95em;color: #1E79D2;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;cursor: pointer;}
+ul.wedos-list li.wedos-item a:hover{color: #0B4276;cursor: pointer;}
+div.wedos-weblinks{background: #DADADA;display: block;margin-top: 5px;}
+div.wedos-weblinks a, div.wedos-weblinks a:active,div.wedos-weblinks a:visited,div.wedos-weblinks a:link{background: #DADADA;display: inline-block;padding: 2px 10px 2px 10px;color: #1E90FF;text-decoration: none;font-size: 0.9em;border: 1px solid #DADADA;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;cursor: pointer;}
+div.wedos-weblinks a:hover{background: white;color: #1E90FF;border: 1px solid white;cursor: pointer;}
+#wedos-google-plus{display: none;}
+#wedos-traffic{display: none;}
+#wedos-traffic a.wedos-traffic-link-info{color: #1E90FF;}
+#wedos-traffic a.wedos-traffic-link-info:hover{color:#4D4D4D;cursor:pointer;}
+table.plugins tbody tr#wedos-news a.wedos-news-donate-link{background: #1E90FF;padding: 1px 3px 1px 3px;display: inline-block;color: white;-moz-transition:all 0.3s ease-in-out;-webkit-transition:all 0.3s ease-in-out;transition:all 0.3s ease-in-out;cursor: pointer;text-decoration: none;border-radius: 2px;-moz-border-radius: 2px;-webkit-border-radius: 2px;-khtml-border-radius: 2px;}
+table.plugins tbody tr#wedos-news a.wedos-news-donate-link:hover{color: #1E90FF;background: white;}
